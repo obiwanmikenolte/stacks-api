@@ -88,15 +88,12 @@ This generator will help you to build your own Node.js Express Mongodb API using
 To start the application in development mode, run:
 
 ```bash
-npm install -g nodemon
-npm install -g ts-node
-npm install -g typescript
 npm install
 ```
 
 Start the application in dev env:
 ```
-nodemon
+node_modules/.bin/nodemon
 ```
 Start the application in production env:
 
